@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -739,12 +739,12 @@
 <smd name="7" x="-0.325" y="1.375" dx="0.3" dy="0.65" layer="1" rot="R180"/>
 <smd name="8" x="-0.975" y="1.375" dx="0.3" dy="0.65" layer="1" rot="R180"/>
 <smd name="EP" x="0" y="0" dx="2.35" dy="1.6" layer="1" cream="no"/>
-<wire x1="-1.6" y1="-1.6" x2="-1.6" y2="1.6" width="0.127" layer="21"/>
-<wire x1="-1.6" y1="1.6" x2="-1.3" y2="1.6" width="0.127" layer="21"/>
-<wire x1="1.6" y1="1.6" x2="1.6" y2="-1.6" width="0.127" layer="21"/>
-<wire x1="1.6" y1="-1.6" x2="1.3" y2="-1.6" width="0.127" layer="21"/>
-<wire x1="-1.6" y1="-1.6" x2="-1.3" y2="-1.6" width="0.127" layer="21"/>
-<wire x1="1.6" y1="1.6" x2="1.3" y2="1.6" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="-1.6" x2="-1.6" y2="1.6" width="0.2032" layer="21"/>
+<wire x1="-1.6" y1="1.6" x2="-1.3" y2="1.6" width="0.2032" layer="21"/>
+<wire x1="1.6" y1="1.6" x2="1.6" y2="-1.6" width="0.2032" layer="21"/>
+<wire x1="1.6" y1="-1.6" x2="1.3" y2="-1.6" width="0.2032" layer="21"/>
+<wire x1="-1.6" y1="-1.6" x2="-1.3" y2="-1.6" width="0.2032" layer="21"/>
+<wire x1="1.6" y1="1.6" x2="1.3" y2="1.6" width="0.2032" layer="21"/>
 <circle x="-1.8" y="-1.8" radius="0.3" width="0" layer="21"/>
 <text x="-1.7" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
 <text x="1.7" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="bottom-center">&gt;Value</text>
@@ -815,9 +815,9 @@
 <smd name="MNT4" x="4.66" y="-0.17" dx="0.48" dy="1.8" layer="1"/>
 <smd name="MNT5" x="-4.465" y="-5.89" dx="1.03" dy="1" layer="1"/>
 <smd name="MNT6" x="4.465" y="-5.89" dx="1.03" dy="1" layer="1"/>
-<wire x1="-5.184" y1="-6.631" x2="-5.184" y2="6.504" width="0.127" layer="21"/>
-<wire x1="5.184" y1="-6.631" x2="-5.184" y2="-6.631" width="0.127" layer="21"/>
-<wire x1="5.184" y1="-6.631" x2="5.184" y2="6.504" width="0.127" layer="21"/>
+<wire x1="-5.2348" y1="-6.631" x2="-5.2348" y2="6.504" width="0.2032" layer="21"/>
+<wire x1="5.2348" y1="-6.631" x2="-5.2348" y2="-6.631" width="0.2032" layer="21"/>
+<wire x1="5.2348" y1="-6.631" x2="5.2348" y2="6.504" width="0.2032" layer="21"/>
 <text x="0" y="-6.731" size="0.6096" layer="25" font="vector" ratio="20" align="top-center">&gt;Name</text>
 <text x="0" y="0" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
 </package>
@@ -1127,10 +1127,10 @@
 <smd name="MNT2" x="19" y="0" dx="2.6" dy="5.6" layer="1"/>
 <smd name="GND" x="10.5" y="-0.95" dx="1.4" dy="3.7" layer="1"/>
 <smd name="FEED" x="12.5" y="-0.95" dx="1.4" dy="3.7" layer="1"/>
-<wire x1="20.508" y1="-3.008" x2="-20.508" y2="-3.008" width="0.127" layer="21"/>
-<wire x1="-20.508" y1="-3.008" x2="-20.508" y2="3.008" width="0.127" layer="21"/>
-<wire x1="-20.508" y1="3.008" x2="20.508" y2="3.008" width="0.127" layer="21"/>
-<wire x1="20.508" y1="3.008" x2="20.508" y2="-3.008" width="0.127" layer="21"/>
+<wire x1="20.5334" y1="-3.0334" x2="-20.5334" y2="-3.0334" width="0.2032" layer="21"/>
+<wire x1="-20.5334" y1="-3.0334" x2="-20.5334" y2="3.0334" width="0.2032" layer="21"/>
+<wire x1="-20.5334" y1="3.0334" x2="20.5334" y2="3.0334" width="0.2032" layer="21"/>
+<wire x1="20.5334" y1="3.0334" x2="20.5334" y2="-3.0334" width="0.2032" layer="21"/>
 <wire x1="-20" y1="-7.5" x2="20" y2="-7.5" width="0.002540625" layer="51"/>
 <text x="0" y="-7.5" size="0.6096" layer="51" ratio="20" align="bottom-center">GND KEEPOUT</text>
 <wire x1="-20.6" y1="-2.5" x2="-20.6" y2="2.5" width="0.002540625" layer="51"/>
@@ -1317,13 +1317,13 @@
 <smd name="1" x="-0.95" y="-1.15" dx="0.6" dy="1.2" layer="1" rot="R180"/>
 <smd name="2" x="0" y="-1.15" dx="0.6" dy="1.2" layer="1" rot="R180"/>
 <smd name="3" x="0.95" y="-1.15" dx="0.6" dy="1.2" layer="1" rot="R180"/>
-<wire x1="-1.5625" y1="-0.9125" x2="-1.5625" y2="0.9125" width="0.127" layer="21"/>
-<wire x1="1.5625" y1="0.9125" x2="1.5625" y2="-0.9125" width="0.127" layer="21"/>
-<wire x1="-1.5625" y1="0.9125" x2="-1.3375" y2="0.9125" width="0.127" layer="21"/>
-<wire x1="1.5625" y1="-0.9125" x2="1.3375" y2="-0.9125" width="0.127" layer="21"/>
-<wire x1="1.5625" y1="0.9125" x2="1.3375" y2="0.9125" width="0.127" layer="21"/>
-<wire x1="-1.5625" y1="-0.9125" x2="-1.3375" y2="-0.9125" width="0.127" layer="21"/>
-<circle x="-1.8" y="-1.2" radius="0.3" width="0" layer="21"/>
+<wire x1="-1.5879" y1="-0.9125" x2="-1.5879" y2="0.9125" width="0.2032" layer="21"/>
+<wire x1="1.5879" y1="0.9125" x2="1.5879" y2="-0.9125" width="0.2032" layer="21"/>
+<wire x1="-1.5879" y1="0.9125" x2="-1.4645" y2="0.9125" width="0.2032" layer="21"/>
+<wire x1="1.5879" y1="-0.9125" x2="1.4645" y2="-0.9125" width="0.2032" layer="21"/>
+<wire x1="1.5879" y1="0.9125" x2="1.4645" y2="0.9125" width="0.2032" layer="21"/>
+<wire x1="-1.5879" y1="-0.9125" x2="-1.4645" y2="-0.9125" width="0.2032" layer="21"/>
+<circle x="-1.8508" y="-1.1746" radius="0.3" width="0" layer="21"/>
 </package>
 </packages>
 <symbols>

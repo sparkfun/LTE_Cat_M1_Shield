@@ -4736,12 +4736,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="7" x="-0.325" y="1.375" dx="0.3" dy="0.65" layer="1" rot="R180"/>
 <smd name="8" x="-0.975" y="1.375" dx="0.3" dy="0.65" layer="1" rot="R180"/>
 <smd name="EP" x="0" y="0" dx="2.35" dy="1.6" layer="1" cream="no"/>
-<wire x1="-1.6" y1="-1.6" x2="-1.6" y2="1.6" width="0.127" layer="21"/>
-<wire x1="-1.6" y1="1.6" x2="-1.3" y2="1.6" width="0.127" layer="21"/>
-<wire x1="1.6" y1="1.6" x2="1.6" y2="-1.6" width="0.127" layer="21"/>
-<wire x1="1.6" y1="-1.6" x2="1.3" y2="-1.6" width="0.127" layer="21"/>
-<wire x1="-1.6" y1="-1.6" x2="-1.3" y2="-1.6" width="0.127" layer="21"/>
-<wire x1="1.6" y1="1.6" x2="1.3" y2="1.6" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="-1.6" x2="-1.6" y2="1.6" width="0.2032" layer="21"/>
+<wire x1="-1.6" y1="1.6" x2="-1.3" y2="1.6" width="0.2032" layer="21"/>
+<wire x1="1.6" y1="1.6" x2="1.6" y2="-1.6" width="0.2032" layer="21"/>
+<wire x1="1.6" y1="-1.6" x2="1.3" y2="-1.6" width="0.2032" layer="21"/>
+<wire x1="-1.6" y1="-1.6" x2="-1.3" y2="-1.6" width="0.2032" layer="21"/>
+<wire x1="1.6" y1="1.6" x2="1.3" y2="1.6" width="0.2032" layer="21"/>
 <circle x="-1.8" y="-1.8" radius="0.3" width="0" layer="21"/>
 <text x="-1.7" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
 <text x="1.7" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="bottom-center">&gt;Value</text>
@@ -4766,9 +4766,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="MNT4" x="4.66" y="-0.17" dx="0.48" dy="1.8" layer="1"/>
 <smd name="MNT5" x="-4.465" y="-5.89" dx="1.03" dy="1" layer="1"/>
 <smd name="MNT6" x="4.465" y="-5.89" dx="1.03" dy="1" layer="1"/>
-<wire x1="-5.184" y1="-6.631" x2="-5.184" y2="6.504" width="0.127" layer="21"/>
-<wire x1="5.184" y1="-6.631" x2="-5.184" y2="-6.631" width="0.127" layer="21"/>
-<wire x1="5.184" y1="-6.631" x2="5.184" y2="6.504" width="0.127" layer="21"/>
+<wire x1="-5.2348" y1="-6.631" x2="-5.2348" y2="6.504" width="0.2032" layer="21"/>
+<wire x1="5.2348" y1="-6.631" x2="-5.2348" y2="-6.631" width="0.2032" layer="21"/>
+<wire x1="5.2348" y1="-6.631" x2="5.2348" y2="6.504" width="0.2032" layer="21"/>
 <text x="0" y="-6.731" size="0.6096" layer="25" font="vector" ratio="20" align="top-center">&gt;Name</text>
 <text x="0" y="0" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
 </package>
@@ -5193,10 +5193,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="MNT2" x="19" y="0" dx="2.6" dy="5.6" layer="1"/>
 <smd name="GND" x="10.5" y="-0.95" dx="1.4" dy="3.7" layer="1"/>
 <smd name="FEED" x="12.5" y="-0.95" dx="1.4" dy="3.7" layer="1"/>
-<wire x1="20.508" y1="-3.008" x2="-20.508" y2="-3.008" width="0.127" layer="21"/>
-<wire x1="-20.508" y1="-3.008" x2="-20.508" y2="3.008" width="0.127" layer="21"/>
-<wire x1="-20.508" y1="3.008" x2="20.508" y2="3.008" width="0.127" layer="21"/>
-<wire x1="20.508" y1="3.008" x2="20.508" y2="-3.008" width="0.127" layer="21"/>
+<wire x1="20.5334" y1="-3.0334" x2="-20.5334" y2="-3.0334" width="0.2032" layer="21"/>
+<wire x1="-20.5334" y1="-3.0334" x2="-20.5334" y2="3.0334" width="0.2032" layer="21"/>
+<wire x1="-20.5334" y1="3.0334" x2="20.5334" y2="3.0334" width="0.2032" layer="21"/>
+<wire x1="20.5334" y1="3.0334" x2="20.5334" y2="-3.0334" width="0.2032" layer="21"/>
 <wire x1="-20" y1="-7.5" x2="20" y2="-7.5" width="0.002540625" layer="51"/>
 <text x="0" y="-7.5" size="0.6096" layer="51" ratio="20" align="bottom-center">GND KEEPOUT</text>
 <wire x1="-20.6" y1="-2.5" x2="-20.6" y2="2.5" width="0.002540625" layer="51"/>
@@ -5270,13 +5270,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="1" x="-0.95" y="-1.15" dx="0.6" dy="1.2" layer="1" rot="R180"/>
 <smd name="2" x="0" y="-1.15" dx="0.6" dy="1.2" layer="1" rot="R180"/>
 <smd name="3" x="0.95" y="-1.15" dx="0.6" dy="1.2" layer="1" rot="R180"/>
-<wire x1="-1.5625" y1="-0.9125" x2="-1.5625" y2="0.9125" width="0.127" layer="21"/>
-<wire x1="1.5625" y1="0.9125" x2="1.5625" y2="-0.9125" width="0.127" layer="21"/>
-<wire x1="-1.5625" y1="0.9125" x2="-1.3375" y2="0.9125" width="0.127" layer="21"/>
-<wire x1="1.5625" y1="-0.9125" x2="1.3375" y2="-0.9125" width="0.127" layer="21"/>
-<wire x1="1.5625" y1="0.9125" x2="1.3375" y2="0.9125" width="0.127" layer="21"/>
-<wire x1="-1.5625" y1="-0.9125" x2="-1.3375" y2="-0.9125" width="0.127" layer="21"/>
-<circle x="-1.8" y="-1.2" radius="0.3" width="0" layer="21"/>
+<wire x1="-1.5879" y1="-0.9125" x2="-1.5879" y2="0.9125" width="0.2032" layer="21"/>
+<wire x1="1.5879" y1="0.9125" x2="1.5879" y2="-0.9125" width="0.2032" layer="21"/>
+<wire x1="-1.5879" y1="0.9125" x2="-1.4645" y2="0.9125" width="0.2032" layer="21"/>
+<wire x1="1.5879" y1="-0.9125" x2="1.4645" y2="-0.9125" width="0.2032" layer="21"/>
+<wire x1="1.5879" y1="0.9125" x2="1.4645" y2="0.9125" width="0.2032" layer="21"/>
+<wire x1="-1.5879" y1="-0.9125" x2="-1.4645" y2="-0.9125" width="0.2032" layer="21"/>
+<circle x="-1.8508" y="-1.1746" radius="0.3" width="0" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -8666,6 +8666,7 @@ It is used to mate with our FTDI Basic serial programmers using the Arduino IDE.
 <pin name="SIGNAL" x="5.08" y="0" visible="off" length="middle" rot="R180"/>
 <pin name="GND@1" x="-2.54" y="-7.62" visible="off" length="short"/>
 <text x="-3.81" y="4.064" size="1.778" layer="95">&gt;NAME</text>
+<text x="0.762" y="-4.572" size="1.778" layer="96">&gt;Value</text>
 </symbol>
 <symbol name="CONN_03">
 <description>&lt;h3&gt;3 Pin Connection&lt;/h3&gt;</description>
@@ -14503,7 +14504,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </classes>
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
-<part name="U5" library="ublox" deviceset="SARA-R4" device=""/>
+<part name="U5" library="ublox" deviceset="SARA-R4" device="" value="SARA-R410M-2B"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="USB_MICRO-B" device="_HALF_PTH_MILL"/>
 <part name="J3" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM"/>
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -14584,11 +14585,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND19" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND24" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND22" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="JP7" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_NO-SILK" value="VUSB_DET"/>
+<part name="JP7" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" value="VUSB_DET"/>
 <part name="S1" library="SparkFun-Switches" deviceset="SWITCH-DPDT" device="-SMD-AYZ0202"/>
 <part name="FRAME2" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
-<part name="JP4" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_NO-SILK"/>
-<part name="JP3" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_NO-SILK"/>
+<part name="JP4" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" value="JUMPER-SMT_2_NC_TRACE_SILK"/>
+<part name="JP3" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" value="JUMPER-SMT_2_NC_TRACE_SILK"/>
 <part name="C8" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="C9" library="SparkFun-Capacitors" deviceset="10NF" device="-0603-50V-10%" value="10nF"/>
 <part name="C10" library="SparkFun-Capacitors" deviceset="15PF" device="-0603-50V-5%" value="15pF"/>
@@ -14616,11 +14617,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_NO" device="_NO-SILK" value="IOREF-SEL"/>
+<part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_NO" device="_SILK" value="IOREF-SEL"/>
 <part name="J6" library="SparkFun-Connectors" deviceset="CONN_03" device="1X03_NO_SILK"/>
 <part name="J7" library="SparkFun-Connectors" deviceset="CONN_03" device="1X03_NO_SILK"/>
-<part name="JP6" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_NO-SILK" value=""/>
-<part name="JP5" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_NO-SILK" value=""/>
+<part name="JP6" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" value=""/>
+<part name="JP5" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" value=""/>
 <part name="GND23" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND25" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="J4" library="SparkFun-Connectors" deviceset="CONN_01" device="PTH_NO_SILK_YES_STOP"/>
@@ -14678,7 +14679,7 @@ supplies power to Arduino)</text>
 </polygon>
 <text x="2.54" y="119.38" size="2.54" layer="94">Level Shifting</text>
 <text x="68.58" y="116.84" size="1.778" layer="97" align="bottom-center">If the Arduino does not supply IOREF,
-Use JP??? to set it to either 5V or 3.3V.</text>
+Use JP2 to set it to either 5V or 3.3V.</text>
 <wire x1="0" y1="63.5" x2="147.32" y2="63.5" width="0.2032" layer="97" style="longdash"/>
 <wire x1="147.32" y1="35.56" x2="147.32" y2="63.5" width="0.2032" layer="97" style="longdash"/>
 <wire x1="99.06" y1="63.5" x2="99.06" y2="124.46" width="0.2032" layer="97" style="longdash"/>
@@ -14696,7 +14697,28 @@ the SARA module.</text>
 <text x="149.86" y="86.36" size="2.54" layer="94">Arduino Pins</text>
 <text x="167.64" y="10.16" size="2.54" layer="94">Jim Lindblom</text>
 <text x="238.76" y="7.62" size="2.54" layer="94">x01</text>
-<text x="137.16" y="170.18" size="1.778" layer="97">Peak current: 1A</text>
+<text x="139.7" y="144.78" size="1.778" layer="97">Peak current: 1A</text>
+<text x="121.92" y="111.76" size="1.27" layer="97" align="bottom-center">Hardware Serial Port
+(D0 = RX, D1 = TX)</text>
+<text x="121.92" y="101.6" size="1.27" layer="97" rot="R180" align="bottom-center">Software serial port
+(D8 = RX, D9 = TX)</text>
+<wire x1="121.92" y1="101.6" x2="121.92" y2="111.76" width="0.2032" layer="97"/>
+<wire x1="121.92" y1="111.76" x2="120.65" y2="109.22" width="0.2032" layer="97"/>
+<wire x1="120.65" y1="109.22" x2="123.19" y2="109.22" width="0.2032" layer="97"/>
+<wire x1="123.19" y1="109.22" x2="121.92" y2="111.76" width="0.2032" layer="97"/>
+<wire x1="121.92" y1="101.6" x2="120.65" y2="104.14" width="0.2032" layer="97"/>
+<wire x1="120.65" y1="104.14" x2="123.19" y2="104.14" width="0.2032" layer="97"/>
+<wire x1="123.19" y1="104.14" x2="121.92" y2="101.6" width="0.2032" layer="97"/>
+<polygon width="0.2032" layer="97">
+<vertex x="121.92" y="101.6"/>
+<vertex x="120.65" y="104.14"/>
+<vertex x="123.19" y="104.14"/>
+</polygon>
+<polygon width="0.2032" layer="97">
+<vertex x="120.65" y="109.22"/>
+<vertex x="121.92" y="111.76"/>
+<vertex x="123.19" y="109.22"/>
+</polygon>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -14740,9 +14762,9 @@ the SARA module.</text>
 <instance part="S2" gate="G$1" x="205.74" y="152.4"/>
 <instance part="SUPPLY12" gate="G$1" x="220.98" y="160.02"/>
 <instance part="C6" gate="G$1" x="129.54" y="154.94" rot="MR0"/>
-<instance part="C7" gate="G$1" x="157.48" y="154.94"/>
+<instance part="C7" gate="G$1" x="162.56" y="154.94"/>
 <instance part="GND16" gate="1" x="129.54" y="144.78"/>
-<instance part="GND18" gate="1" x="157.48" y="144.78"/>
+<instance part="GND18" gate="1" x="162.56" y="144.78"/>
 <instance part="U1" gate="G$1" x="30.48" y="88.9" smashed="yes">
 <attribute name="NAME" x="17.78" y="104.394" size="1.778" layer="95"/>
 <attribute name="VALUE" x="17.78" y="74.168" size="1.778" layer="96"/>
@@ -14757,10 +14779,10 @@ the SARA module.</text>
 <instance part="GND1" gate="1" x="7.62" y="96.52"/>
 <instance part="GND8" gate="1" x="50.8" y="96.52"/>
 <instance part="GND15" gate="1" x="86.36" y="30.48"/>
-<instance part="D3" gate="G$1" x="167.64" y="144.78"/>
-<instance part="R6" gate="G$1" x="167.64" y="154.94" rot="R90"/>
-<instance part="GND19" gate="1" x="167.64" y="134.62"/>
-<instance part="S1" gate="G$1" x="121.92" y="93.98"/>
+<instance part="D3" gate="G$1" x="175.26" y="144.78"/>
+<instance part="R6" gate="G$1" x="175.26" y="154.94" rot="R90"/>
+<instance part="GND19" gate="1" x="175.26" y="134.62"/>
+<instance part="S1" gate="G$1" x="121.92" y="83.82"/>
 <instance part="JP4" gate="G$1" x="218.44" y="68.58" smashed="yes">
 <attribute name="NAME" x="220.218" y="68.834" size="1.778" layer="95" font="vector"/>
 </instance>
@@ -14785,7 +14807,7 @@ the SARA module.</text>
 <instance part="SUPPLY8" gate="G$1" x="127" y="170.18"/>
 <instance part="SUPPLY11" gate="G$1" x="213.36" y="160.02"/>
 <instance part="D5" gate="G$1" x="30.48" y="144.78"/>
-<instance part="SUPPLY22" gate="G$1" x="162.56" y="165.1"/>
+<instance part="SUPPLY22" gate="G$1" x="167.64" y="165.1"/>
 <instance part="LOGO1" gate="G$1" x="132.08" y="5.08"/>
 <instance part="LOGO2" gate="G$1" x="132.08" y="17.78"/>
 <instance part="FD1" gate="G$1" x="238.76" y="25.4"/>
@@ -14864,7 +14886,7 @@ the SARA module.</text>
 <segment>
 <pinref part="C7" gate="G$1" pin="2"/>
 <pinref part="GND18" gate="1" pin="GND"/>
-<wire x1="157.48" y1="147.32" x2="157.48" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="147.32" x2="162.56" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J5" gate="G$1" pin="GND"/>
@@ -14896,7 +14918,7 @@ the SARA module.</text>
 <segment>
 <pinref part="D3" gate="G$1" pin="C"/>
 <pinref part="GND19" gate="1" pin="GND"/>
-<wire x1="167.64" y1="137.16" x2="167.64" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="137.16" x2="175.26" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="185.42" y1="48.26" x2="182.88" y2="48.26" width="0.1524" layer="91"/>
@@ -15029,8 +15051,8 @@ the SARA module.</text>
 </segment>
 <segment>
 <pinref part="S1" gate="G$1" pin="2"/>
-<wire x1="116.84" y1="96.52" x2="114.3" y2="96.52" width="0.1524" layer="91"/>
-<label x="114.3" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="116.84" y1="86.36" x2="114.3" y2="86.36" width="0.1524" layer="91"/>
+<label x="114.3" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="B3"/>
@@ -15046,8 +15068,8 @@ the SARA module.</text>
 </segment>
 <segment>
 <pinref part="S1" gate="G$1" pin="5"/>
-<wire x1="116.84" y1="88.9" x2="114.3" y2="88.9" width="0.1524" layer="91"/>
-<label x="114.3" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="116.84" y1="78.74" x2="114.3" y2="78.74" width="0.1524" layer="91"/>
+<label x="114.3" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="B4"/>
@@ -15082,16 +15104,16 @@ the SARA module.</text>
 <net name="3.3V" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="OUT"/>
-<wire x1="154.94" y1="162.56" x2="157.48" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="162.56" x2="162.56" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="157.48" y1="160.02" x2="157.48" y2="162.56" width="0.1524" layer="91"/>
-<junction x="157.48" y="162.56"/>
-<wire x1="157.48" y1="162.56" x2="162.56" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="162.56" x2="162.56" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="167.64" y1="162.56" x2="167.64" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="162.56" x2="167.64" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="160.02" x2="162.56" y2="162.56" width="0.1524" layer="91"/>
 <junction x="162.56" y="162.56"/>
+<wire x1="162.56" y1="162.56" x2="167.64" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="162.56" x2="167.64" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="175.26" y1="162.56" x2="175.26" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="162.56" x2="175.26" y2="162.56" width="0.1524" layer="91"/>
+<junction x="167.64" y="162.56"/>
 <pinref part="SUPPLY22" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
@@ -15172,7 +15194,7 @@ the SARA module.</text>
 <segment>
 <pinref part="D3" gate="G$1" pin="A"/>
 <pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="167.64" y1="147.32" x2="167.64" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="147.32" x2="175.26" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RESET_N" class="0">
@@ -15197,8 +15219,8 @@ the SARA module.</text>
 </segment>
 <segment>
 <pinref part="S1" gate="G$1" pin="3"/>
-<wire x1="127" y1="93.98" x2="129.54" y2="93.98" width="0.1524" layer="91"/>
-<label x="129.54" y="93.98" size="1.27" layer="95" xref="yes"/>
+<wire x1="127" y1="83.82" x2="129.54" y2="83.82" width="0.1524" layer="91"/>
+<label x="129.54" y="83.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SOFTTX-ARDUINO" class="0">
@@ -15209,8 +15231,8 @@ the SARA module.</text>
 </segment>
 <segment>
 <pinref part="S1" gate="G$1" pin="6"/>
-<wire x1="127" y1="86.36" x2="129.54" y2="86.36" width="0.1524" layer="91"/>
-<label x="129.54" y="86.36" size="1.27" layer="95" xref="yes"/>
+<wire x1="127" y1="76.2" x2="129.54" y2="76.2" width="0.1524" layer="91"/>
+<label x="129.54" y="76.2" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="HARDRX-ARDUINO" class="0">
@@ -15221,8 +15243,8 @@ the SARA module.</text>
 </segment>
 <segment>
 <pinref part="S1" gate="G$1" pin="1"/>
-<wire x1="127" y1="99.06" x2="129.54" y2="99.06" width="0.1524" layer="91"/>
-<label x="129.54" y="99.06" size="1.27" layer="95" xref="yes"/>
+<wire x1="127" y1="88.9" x2="129.54" y2="88.9" width="0.1524" layer="91"/>
+<label x="129.54" y="88.9" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="HARDTX-ARDUINO" class="0">
@@ -15233,8 +15255,8 @@ the SARA module.</text>
 </segment>
 <segment>
 <pinref part="S1" gate="G$1" pin="4"/>
-<wire x1="127" y1="91.44" x2="129.54" y2="91.44" width="0.1524" layer="91"/>
-<label x="129.54" y="91.44" size="1.27" layer="95" xref="yes"/>
+<wire x1="127" y1="81.28" x2="129.54" y2="81.28" width="0.1524" layer="91"/>
+<label x="129.54" y="81.28" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$19" class="0">
