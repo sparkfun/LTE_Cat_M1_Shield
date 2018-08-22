@@ -5282,7 +5282,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <symbols>
 <symbol name="SARA-R4">
 <pin name="VCC" x="-15.24" y="33.02" length="short"/>
-<pin name="GND" x="-15.24" y="-33.02" length="short"/>
+<pin name="GND" x="-15.24" y="-43.18" length="short"/>
 <pin name="PWR_ON" x="-15.24" y="27.94" length="short"/>
 <pin name="RESET_N" x="-15.24" y="22.86" length="short"/>
 <pin name="VUSB_DET" x="-15.24" y="17.78" length="short"/>
@@ -5321,12 +5321,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="ANT_DET" x="15.24" y="27.94" length="short" rot="R180"/>
 <pin name="ANT" x="15.24" y="33.02" length="short" rot="R180"/>
 <pin name="GPIO1" x="15.24" y="-33.02" length="short" rot="R180"/>
-<wire x1="-12.7" y1="35.56" x2="-12.7" y2="-35.56" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-35.56" x2="12.7" y2="-35.56" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-35.56" x2="12.7" y2="35.56" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="35.56" x2="-12.7" y2="-45.72" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-45.72" x2="12.7" y2="-45.72" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-45.72" x2="12.7" y2="35.56" width="0.254" layer="94"/>
 <wire x1="12.7" y1="35.56" x2="-12.7" y2="35.56" width="0.254" layer="94"/>
 <text x="-12.7" y="35.814" size="1.778" layer="95" font="vector">&gt;Name</text>
-<text x="-12.7" y="-35.814" size="1.778" layer="96" font="vector" align="top-left">&gt;Value</text>
+<text x="-12.7" y="-45.974" size="1.778" layer="96" font="vector" align="top-left">&gt;Value</text>
+<pin name="RSVD@2" x="-15.24" y="-33.02" length="short"/>
+<pin name="RSVD@31" x="-15.24" y="-35.56" length="short"/>
+<pin name="RSVD@33" x="-15.24" y="-38.1" length="short"/>
 </symbol>
 <symbol name="VREG_EN">
 <wire x1="-7.62" y1="-7.62" x2="5.08" y2="-7.62" width="0.4064" layer="94"/>
@@ -5601,6 +5604,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="PWR_ON" pad="15"/>
 <connect gate="G$1" pin="RESET_N" pad="18"/>
 <connect gate="G$1" pin="RI" pad="7"/>
+<connect gate="G$1" pin="RSVD@2" pad="2"/>
+<connect gate="G$1" pin="RSVD@31" pad="31"/>
+<connect gate="G$1" pin="RSVD@33" pad="33"/>
 <connect gate="G$1" pin="RTS" pad="10"/>
 <connect gate="G$1" pin="RXD" pad="13"/>
 <connect gate="G$1" pin="SCL" pad="27"/>
@@ -10273,6 +10279,27 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
+<deviceset name="47KOHM" prefix="R">
+<description>&lt;h3&gt;47kΩ resistor&lt;/h3&gt;
+&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603-1/10W-1%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-07871"/>
+<attribute name="VALUE" value="47k"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="10KOHM" prefix="R">
 <description>&lt;h3&gt;10kΩ resistor&lt;/h3&gt;
 &lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
@@ -14608,12 +14635,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="E1" library="ublox" deviceset="ANTENNA-GROUNDED" device="MOLEX-146200" value="MOLEX-146200"/>
 <part name="GND41" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="B1" library="SparkFun-Boards" deviceset="ARDUINO_UNO_R3_SHIELD" device="NOLABELS"/>
-<part name="U2" library="SparkFun-IC-Power" deviceset="V_REG_AP2112" device="K-3.3V" value="3.3V"/>
+<part name="U2" library="SparkFun-IC-Power" deviceset="V_REG_AP2112" device="K-3.3V" value="AP2112K-3.3"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND9" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="R1" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
+<part name="R1" library="SparkFun-Resistors" deviceset="47KOHM" device="-0603-1/10W-1%" value="47k"/>
 <part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
@@ -15406,14 +15433,14 @@ the SARA module.</text>
 <wire x1="17.78" y1="139.7" x2="20.32" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="D_N" class="1">
+<net name="D+" class="1">
 <segment>
 <pinref part="D5" gate="G$1" pin="6"/>
 <wire x1="40.64" y1="149.86" x2="45.72" y2="149.86" width="0.1524" layer="91"/>
 <label x="45.72" y="149.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="D_P" class="1">
+<net name="D-" class="1">
 <segment>
 <pinref part="D5" gate="G$1" pin="4"/>
 <wire x1="40.64" y1="139.7" x2="45.72" y2="139.7" width="0.1524" layer="91"/>
@@ -15463,6 +15490,9 @@ Default: JP8 (chip antenna)</text>
 <text x="48.26" y="104.14" size="1.778" layer="97" rot="R180">UART RX/TX pin names on 
 SARA module are w/ respect 
 to DTE (Arduino).</text>
+<text x="149.86" y="167.64" size="1.778" layer="97">Molex 146208 chip antenna peak gain: 
+698~960MHz: 0.2 dBi
+1.7~2.7GHz: 3.8 dBi</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
@@ -15471,7 +15501,7 @@ to DTE (Arduino).</text>
 <instance part="S3" gate="G$1" x="17.78" y="121.92" rot="R90"/>
 <instance part="S4" gate="G$1" x="33.02" y="121.92" rot="R90"/>
 <instance part="SUPPLY15" gate="G$1" x="63.5" y="22.86"/>
-<instance part="GND27" gate="1" x="63.5" y="68.58"/>
+<instance part="GND27" gate="1" x="63.5" y="58.42"/>
 <instance part="SUPPLY14" gate="G$1" x="60.96" y="142.24"/>
 <instance part="J8" gate="G$1" x="241.3" y="81.28"/>
 <instance part="GND40" gate="1" x="231.14" y="71.12"/>
@@ -15541,8 +15571,12 @@ to DTE (Arduino).</text>
 <segment>
 <pinref part="U5" gate="G$1" pin="GND"/>
 <pinref part="GND27" gate="1" pin="GND"/>
-<wire x1="66.04" y1="73.66" x2="63.5" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="73.66" x2="63.5" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="63.5" x2="63.5" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="63.5" x2="63.5" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="U5" gate="G$1" pin="RSVD@33"/>
+<wire x1="66.04" y1="68.58" x2="63.5" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="68.58" x2="63.5" y2="63.5" width="0.1524" layer="91"/>
+<junction x="63.5" y="63.5"/>
 </segment>
 <segment>
 <pinref part="J8" gate="G$1" pin="GND"/>
@@ -15664,14 +15698,14 @@ to DTE (Arduino).</text>
 <wire x1="220.98" y1="68.58" x2="220.98" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="D_N" class="1">
+<net name="D+" class="1">
 <segment>
 <pinref part="U5" gate="G$1" pin="USB_D-"/>
 <wire x1="66.04" y1="121.92" x2="63.5" y2="121.92" width="0.1524" layer="91"/>
 <label x="63.5" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="D_P" class="1">
+<net name="D-" class="1">
 <segment>
 <pinref part="U5" gate="G$1" pin="USB_D+"/>
 <wire x1="66.04" y1="119.38" x2="63.5" y2="119.38" width="0.1524" layer="91"/>
