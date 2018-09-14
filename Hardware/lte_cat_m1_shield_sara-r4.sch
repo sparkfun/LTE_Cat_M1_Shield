@@ -16257,7 +16257,9 @@ layer for the logo on the board is tSilk.&lt;/p&gt;</description>
 <connect gate="G$1" pin="V_INT" pad="4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="IC-14085"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -16276,7 +16278,9 @@ layer for the logo on the board is tSilk.&lt;/p&gt;</description>
 <connect gate="G$1" pin="OUT" pad="1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="VREG-14094"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -16296,7 +16300,9 @@ layer for the logo on the board is tSilk.&lt;/p&gt;</description>
 <connect gate="G$1" pin="VPP" pad="C6"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-14097"/>
+</technology>
 </technologies>
 </device>
 <device name="ATOM" package="NANO_SIM_SI45C-08200">
@@ -16509,6 +16515,7 @@ layer for the logo on the board is tSilk.&lt;/p&gt;</description>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="PROD_ID" value="NDUC-14091"/>
 <attribute name="VALUE" value="39nH"/>
 </technology>
 </technologies>
@@ -16540,6 +16547,7 @@ layer for the logo on the board is tSilk.&lt;/p&gt;</description>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="PROD_ID" value="CAP-14092"/>
 <attribute name="VALUE" value="68pF"/>
 </technology>
 </technologies>
@@ -16620,6 +16628,7 @@ layer for the logo on the board is tSilk.&lt;/p&gt;</description>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="PROD_ID" value="CAP-14093"/>
 <attribute name="VALUE" value="100uF"/>
 </technology>
 </technologies>
@@ -16676,7 +16685,9 @@ layer for the logo on the board is tSilk.&lt;/p&gt;</description>
 <connect gate="G$1" pin="SIGNAL" pad="FEED"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="ANT-14096"/>
+</technology>
 </technologies>
 </device>
 <device name="ANTENOVA-SR4L002" package="ANTENOVA-SR4L002">
@@ -16705,7 +16716,9 @@ layer for the logo on the board is tSilk.&lt;/p&gt;</description>
 <connect gate="G$1" pin="6" pad="6"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-14084"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -16725,7 +16738,9 @@ layer for the logo on the board is tSilk.&lt;/p&gt;</description>
 <connect gate="G$1" pin="6" pad="6"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-14095"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -16747,7 +16762,9 @@ layer for the logo on the board is tSilk.&lt;/p&gt;</description>
 <connect gate="G$1" pin="VCCB" pad="7"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="IC-14098"/>
+</technology>
 </technologies>
 </device>
 </devices>

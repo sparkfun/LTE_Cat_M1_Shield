@@ -9682,7 +9682,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </autorouter>
 <elements>
 <element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="5.08" y="-25.4"/>
-<element name="U6" library="ublox" package="SARA-LGA" value="SARA-R410M-2B" x="22.86" y="30.48" rot="R180"/>
+<element name="U6" library="ublox" package="SARA-LGA" value="SARA-R410M-2B" x="22.86" y="30.48" rot="R180">
+<attribute name="PROD_ID" value="IC-14085" x="22.86" y="30.48" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="J1" library="SparkFun-Connectors" package="USB-MICROB-PTH-MILL" value="" x="5.08" y="18.923" rot="R270">
 <attribute name="PROD_ID" value="CONN-13711" x="5.08" y="18.923" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
@@ -9727,7 +9729,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="R3" library="SparkFun-Resistors" package="0603" value="2.0k" x="11.43" y="13.97" rot="R90">
 <attribute name="PROD_ID" value="RES-08296" x="25.4" y="-2.54" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
-<element name="U5" library="ublox" package="8-UDFN" value="AP7361C-33FGE" x="12.7" y="18.542" rot="R90"/>
+<element name="U5" library="ublox" package="8-UDFN" value="AP7361C-33FGE" x="12.7" y="18.542" rot="R90">
+<attribute name="PROD_ID" value="VREG-14094" x="12.7" y="18.542" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
 <element name="S2" library="SparkFun-Switches" package="SWITCH_DPDT_SMD_AYZ0202" value="" x="13.2588" y="3.81" rot="R180">
 <attribute name="PROD_ID" value="SWCH-08179" x="13.2588" y="3.81" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="SF_SKU" value="COM-00597" x="13.2588" y="3.81" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
@@ -9738,7 +9742,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="C7" library="SparkFun-Capacitors" package="0603" value="4.7uF" x="15.748" y="18.415" rot="R90">
 <attribute name="PROD_ID" value="CAP-08280" x="15.748" y="18.415" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
-<element name="J9" library="ublox" package="NANO_SIM_WURTH_693043020611" value="NANO_SIM" x="26.67" y="15.24" rot="R90"/>
+<element name="J9" library="ublox" package="NANO_SIM_WURTH_693043020611" value="NANO_SIM" x="26.67" y="15.24" rot="R90">
+<attribute name="PROD_ID" value="CONN-14097" x="26.67" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
 <element name="J8" library="SparkFun-Connectors" package="U.FL" value="U.FL" x="52.705" y="27.18" rot="R180">
 <attribute name="PROD_ID" value="CONN-09193" x="52.705" y="27.18" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="SF_ID" value="WRL-09144" x="52.705" y="27.18" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
@@ -9776,7 +9782,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="C19" library="SparkFun-Capacitors" package="0603" value="0Ohm" x="44.45" y="27.18">
 <attribute name="PROD_ID" value="CAP-10142" x="44.45" y="27.18" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="L1" library="ublox" package="0603" value="39nH" x="41.91" y="28.026" rot="R270"/>
+<element name="L1" library="ublox" package="0603" value="39nH" x="41.91" y="28.026" rot="R270">
+<attribute name="PROD_ID" value="NDUC-14091" x="41.91" y="28.026" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 <element name="L2" library="ublox" package="0603" value="DNP" x="46.902" y="28.067" rot="R90"/>
 <element name="Q2" library="SparkFun-DiscreteSemi" package="SOT23-3" value="600mA/40V" x="3.81" y="29.21" rot="R270">
 <attribute name="PROD_ID" value="TRANS-08049" x="3.81" y="29.21" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
@@ -9813,11 +9821,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="C10" library="SparkFun-Capacitors" package="0603" value="15pF" x="40.64" y="22.86" rot="R90">
 <attribute name="PROD_ID" value="CAP-07881" x="40.64" y="22.86" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
-<element name="C11" library="ublox" package="0603" value="68pF" x="42.164" y="22.86" rot="R90"/>
+<element name="C11" library="ublox" package="0603" value="68pF" x="42.164" y="22.86" rot="R90">
+<attribute name="PROD_ID" value="CAP-14092" x="42.164" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
 <element name="C12" library="ublox" package="1206-POLAR" value="100uF" x="17.78" y="19.05" rot="R90">
+<attribute name="PROD_ID" value="CAP-14093" x="17.78" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="100uF" x="17.78" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="E1" library="ublox" package="MOLEX_146200" value="MOLEX-146200" x="63.5" y="32.639" rot="R270"/>
+<element name="E1" library="ublox" package="MOLEX_146200" value="MOLEX-146200" x="63.5" y="32.639" rot="R270">
+<attribute name="PROD_ID" value="ANT-14096" x="63.5" y="32.639" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 <element name="B1" library="SparkFun-Boards" package="UNO_R3_SHIELD_NOLABELS" value="ARDUINO_UNO_R3_SHIELDNOLABELS" x="30.48" y="26.67" rot="R270"/>
 <element name="U2" library="SparkFun-IC-Power" package="SOT23-5" value="AP2112K-3.3" x="7.62" y="43.18">
 <attribute name="PROD_ID" value="VREG-12457" x="7.62" y="43.18" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
@@ -9842,8 +9855,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="H1" library="SparkFun-Hardware" package="STAND-OFF" value="STAND-OFF" x="57.023" y="7.62"/>
 <element name="JP8" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_NO-SILK" value="J-U.FL" x="49.276" y="27.176"/>
 <element name="JP7" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" value="J-CHIP" x="48.514" y="26.289" rot="R270"/>
-<element name="D1" library="ublox" package="SOT886" value="PRTR5V0U2F" x="8.255" y="19.05"/>
-<element name="D6" library="ublox" package="SOT23-6L" value="DT1042-04SO-7" x="31.75" y="7.874" rot="R90"/>
+<element name="D1" library="ublox" package="SOT886" value="PRTR5V0U2F" x="8.255" y="19.05">
+<attribute name="PROD_ID" value="DIO-14084" x="8.255" y="19.05" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D6" library="ublox" package="SOT23-6L" value="DT1042-04SO-7" x="31.75" y="7.874" rot="R90">
+<attribute name="PROD_ID" value="DIO-14095" x="31.75" y="7.874" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
 <element name="U$1" library="buzzard_labels" package="SCL0" value="" x="8.509" y="49.276"/>
 <element name="U$2" library="buzzard_labels" package="SDA1" value="" x="11.049" y="49.276"/>
 <element name="U$3" library="buzzard_labels" package="AREF2" value="" x="15.621" y="50.419" rot="R270"/>
@@ -9948,7 +9965,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$33" library="buzzard_labels" package="ARDUINO51" value="" x="9.017" y="0.635" rot="R90"/>
 <element name="U$39" library="buzzard_labels" package="SHIELD52" value="" x="17.399" y="1.27" rot="R90"/>
 <element name="U$38" library="buzzard_labels" package="PWR#SEL53" value="" x="10.16" y="8.001"/>
-<element name="U4" library="ublox" package="VSSOP-8" value="TCA9406DCU" x="24.13" y="43.18" rot="R90"/>
+<element name="U4" library="ublox" package="VSSOP-8" value="TCA9406DCU" x="24.13" y="43.18" rot="R90">
+<attribute name="PROD_ID" value="IC-14098" x="24.13" y="43.18" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
 <element name="U1" library="SparkFun-IC-Comms" package="TSSOP14" value="TXB0104" x="30.48" y="43.18">
 <attribute name="PROD_ID" value="IC-13929" x="30.48" y="43.18" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
