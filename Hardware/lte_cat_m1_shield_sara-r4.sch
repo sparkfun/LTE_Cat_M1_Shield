@@ -8,22 +8,22 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -32,8 +32,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -41,19 +41,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -21463,27 +21463,6 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 </device>
 </devices>
 </deviceset>
-<deviceset name="33PF" prefix="C">
-<description>&lt;h3&gt;33pF ceramic capacitors&lt;/h3&gt;
-&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="CAP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-0603-50V-5%" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-10142"/>
-<attribute name="VALUE" value="33pF"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="10NF" prefix="C">
 <description>&lt;h3&gt;0.01uF/10nF/10,000pF ceramic capacitors&lt;/h3&gt;
 &lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;
@@ -22071,6 +22050,27 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name="">
 <attribute name="PROD_ID" value="RES-07856"/>
 <attribute name="VALUE" value="1k"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="0OHM" prefix="R">
+<description>&lt;h3&gt;0Ω resistor&lt;/h3&gt;
+&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603-1/10W-5%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-08609"/>
+<attribute name="VALUE" value="0"/>
 </technology>
 </technologies>
 </device>
@@ -24545,7 +24545,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R8" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="DNP"/>
 <part name="GND35" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C15" library="SparkFun-Capacitors" deviceset="15PF" device="-0603-50V-5%" value="15pF"/>
-<part name="C19" library="SparkFun-Capacitors" deviceset="33PF" device="-0603-50V-5%" value="0Ohm"/>
+<part name="C19" library="SparkFun-Resistors" deviceset="0OHM" device="-0603-1/10W-5%" value="0"/>
 <part name="GND43" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="L1" library="ublox" deviceset="INDUCTOR" device="-0603-39NH" value="39nH"/>
 <part name="GND37" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -25503,7 +25503,7 @@ DTR to GND. This is the
 recommended configuration 
 for a UART with NO FLOW CONTROL.</text>
 <text x="149.86" y="111.76" size="2.54" layer="94" align="top-left">NANO SIM Card Holder</text>
-<text x="215.9" y="129.54" size="1.778" layer="97" rot="R180" align="bottom-center">JP7 and JP8 select either the on-board 
+<text x="223.52" y="129.54" size="1.778" layer="97" rot="R180" align="bottom-center">JP7 and JP8 select either the on-board 
 chip antenna, or an external antenna 
 via the U.FL connector.
 (Only close ONE of these jumpers!)
@@ -25514,7 +25514,6 @@ to DTE (Arduino).</text>
 <text x="149.86" y="167.64" size="1.778" layer="97">Molex 146208 chip antenna peak gain: 
 698~960MHz: 0.2 dBi
 1.7~2.7GHz: 3.8 dBi</text>
-<text x="190.5" y="162.56" size="1.27" layer="97" rot="R180">C19 is replaced by 0Ohm jumper</text>
 <text x="167.64" y="10.16" size="2.54" layer="94">Jim Lindblom</text>
 <text x="238.76" y="7.62" size="2.54" layer="94">v10</text>
 <text x="101.6" y="25.4" size="1.27" layer="97">Must be enabled with:
@@ -25524,6 +25523,11 @@ AT+UGPIOC=16,2</text>
 VCC Range: 3.2-4.2V
 Max current: 490mA (Peak Cat M1 Tx)
 Avg. current: 190mA (Cat M1 Tx/Rx)</text>
+<text x="157.48" y="129.54" size="1.27" layer="97" rot="MR180">If ANT-DET is used:
+R8 = 10k
+C16 = 27pF
+L1 = 68nH
+C19 = 33pF</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
@@ -25536,7 +25540,7 @@ Avg. current: 190mA (Cat M1 Tx/Rx)</text>
 <instance part="SUPPLY14" gate="G$1" x="60.96" y="142.24"/>
 <instance part="J9" gate="G$1" x="241.3" y="81.28"/>
 <instance part="GND44" gate="1" x="231.14" y="71.12"/>
-<instance part="J8" gate="G$1" x="223.52" y="149.86" rot="MR0"/>
+<instance part="J8" gate="G$1" x="233.68" y="149.86" rot="MR0"/>
 <instance part="SUPPLY19" gate="G$1" x="99.06" y="129.54"/>
 <instance part="C20" gate="G$1" x="190.5" y="71.12" rot="MR0"/>
 <instance part="C18" gate="G$1" x="182.88" y="71.12" rot="MR0"/>
@@ -25548,21 +25552,21 @@ Avg. current: 190mA (Cat M1 Tx/Rx)</text>
 <instance part="GND36" gate="1" x="175.26" y="63.5"/>
 <instance part="GND34" gate="1" x="167.64" y="63.5"/>
 <instance part="GND33" gate="1" x="160.02" y="63.5"/>
-<instance part="C16" gate="G$1" x="175.26" y="127" rot="MR0"/>
-<instance part="R8" gate="G$1" x="165.1" y="134.62"/>
-<instance part="GND35" gate="1" x="175.26" y="119.38"/>
-<instance part="C15" gate="G$1" x="170.18" y="149.86" rot="R90"/>
-<instance part="C19" gate="G$1" x="190.5" y="149.86" rot="R90"/>
-<instance part="GND43" gate="1" x="228.6" y="137.16"/>
-<instance part="L1" gate="G$1" x="182.88" y="142.24" rot="MR180"/>
-<instance part="GND37" gate="1" x="182.88" y="127"/>
-<instance part="L2" gate="G$1" x="195.58" y="142.24"/>
+<instance part="C16" gate="G$1" x="185.42" y="127" rot="MR0"/>
+<instance part="R8" gate="G$1" x="175.26" y="134.62"/>
+<instance part="GND35" gate="1" x="185.42" y="119.38"/>
+<instance part="C15" gate="G$1" x="180.34" y="149.86" rot="R90"/>
+<instance part="C19" gate="G$1" x="198.12" y="149.86"/>
+<instance part="GND43" gate="1" x="238.76" y="137.16"/>
+<instance part="L1" gate="G$1" x="190.5" y="142.24" rot="MR180"/>
+<instance part="GND37" gate="1" x="190.5" y="119.38"/>
+<instance part="L2" gate="G$1" x="205.74" y="142.24"/>
 <instance part="Q2" gate="G$1" x="127" y="15.24"/>
 <instance part="SUPPLY21" gate="G$1" x="129.54" y="45.72"/>
 <instance part="R6" gate="G$1" x="116.84" y="15.24" rot="R180"/>
 <instance part="D5" gate="G$1" x="129.54" y="40.64"/>
 <instance part="R7" gate="G$1" x="129.54" y="27.94" rot="R90"/>
-<instance part="GND32" gate="1" x="129.54" y="7.62"/>
+<instance part="GND32" gate="1" x="129.54" y="5.08"/>
 <instance part="GND24" gate="1" x="40.64" y="111.76"/>
 <instance part="GND22" gate="1" x="17.78" y="111.76"/>
 <instance part="JP6" gate="G$1" x="71.12" y="20.32"/>
@@ -25581,16 +25585,16 @@ Avg. current: 190mA (Cat M1 Tx/Rx)</text>
 <instance part="SUPPLY20" gate="G$1" x="101.6" y="167.64"/>
 <instance part="GND31" gate="1" x="101.6" y="152.4"/>
 <instance part="C12" gate="G$1" x="101.6" y="162.56"/>
-<instance part="E1" gate="G$1" x="198.12" y="177.8"/>
-<instance part="GND41" gate="1" x="205.74" y="160.02"/>
+<instance part="E1" gate="G$1" x="208.28" y="177.8"/>
+<instance part="GND41" gate="1" x="215.9" y="160.02"/>
 <instance part="J6" gate="J$1" x="7.62" y="38.1"/>
 <instance part="J7" gate="J$1" x="30.48" y="38.1"/>
 <instance part="JP5" gate="G$1" x="40.64" y="27.94" rot="R90"/>
 <instance part="JP4" gate="G$1" x="17.78" y="27.94" rot="R90"/>
 <instance part="GND23" gate="1" x="17.78" y="17.78"/>
 <instance part="GND25" gate="1" x="40.64" y="17.78"/>
-<instance part="JP8" gate="G$1" x="205.74" y="149.86"/>
-<instance part="JP7" gate="G$1" x="198.12" y="157.48" rot="R90"/>
+<instance part="JP8" gate="G$1" x="215.9" y="149.86"/>
+<instance part="JP7" gate="G$1" x="208.28" y="157.48" rot="R90"/>
 <instance part="D6" gate="G$1" x="208.28" y="68.58"/>
 <instance part="GND40" gate="1" x="198.12" y="58.42"/>
 <instance part="GND42" gate="1" x="220.98" y="58.42"/>
@@ -25643,26 +25647,27 @@ Avg. current: 190mA (Cat M1 Tx/Rx)</text>
 <segment>
 <pinref part="C16" gate="G$1" pin="2"/>
 <pinref part="GND35" gate="1" pin="GND"/>
-<wire x1="175.26" y1="121.92" x2="175.26" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="121.92" x2="185.42" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J8" gate="G$1" pin="GND@1"/>
 <pinref part="GND43" gate="1" pin="GND"/>
-<wire x1="226.06" y1="142.24" x2="228.6" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="142.24" x2="228.6" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="142.24" x2="238.76" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="142.24" x2="238.76" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="J8" gate="G$1" pin="GND@0"/>
-<wire x1="226.06" y1="144.78" x2="228.6" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="144.78" x2="228.6" y2="142.24" width="0.1524" layer="91"/>
-<junction x="228.6" y="142.24"/>
+<wire x1="236.22" y1="144.78" x2="238.76" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="144.78" x2="238.76" y2="142.24" width="0.1524" layer="91"/>
+<junction x="238.76" y="142.24"/>
 </segment>
 <segment>
 <pinref part="GND37" gate="1" pin="GND"/>
-<wire x1="182.88" y1="129.54" x2="182.88" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="121.92" x2="190.5" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="Q2" gate="G$1" pin="E"/>
 <pinref part="GND32" gate="1" pin="GND"/>
+<wire x1="129.54" y1="7.62" x2="129.54" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="S4" gate="G$1" pin="1"/>
@@ -25701,10 +25706,10 @@ Avg. current: 190mA (Cat M1 Tx/Rx)</text>
 </segment>
 <segment>
 <pinref part="E1" gate="G$1" pin="GND"/>
-<wire x1="200.66" y1="167.64" x2="200.66" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="165.1" x2="205.74" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="167.64" x2="210.82" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="165.1" x2="215.9" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="GND41" gate="1" pin="GND"/>
-<wire x1="205.74" y1="165.1" x2="205.74" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="165.1" x2="215.9" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP4" gate="G$1" pin="1"/>
@@ -25746,9 +25751,9 @@ Avg. current: 190mA (Cat M1 Tx/Rx)</text>
 <net name="ANT" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="ANT"/>
-<wire x1="96.52" y1="139.7" x2="162.56" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="139.7" x2="162.56" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="149.86" x2="165.1" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="139.7" x2="172.72" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="139.7" x2="172.72" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="149.86" x2="175.26" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="C15" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -25930,38 +25935,38 @@ Avg. current: 190mA (Cat M1 Tx/Rx)</text>
 <segment>
 <pinref part="U6" gate="G$1" pin="ANT_DET"/>
 <pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="96.52" y1="134.62" x2="157.48" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="134.62" x2="160.02" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="134.62" x2="167.64" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="134.62" x2="170.18" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="170.18" y1="134.62" x2="175.26" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="134.62" x2="185.42" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="C16" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="134.62" x2="175.26" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="134.62" x2="190.5" y2="134.62" width="0.1524" layer="91"/>
-<junction x="175.26" y="134.62"/>
-<wire x1="190.5" y1="134.62" x2="195.58" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="134.62" x2="185.42" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="134.62" x2="200.66" y2="134.62" width="0.1524" layer="91"/>
+<junction x="185.42" y="134.62"/>
+<wire x1="200.66" y1="134.62" x2="205.74" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="L2" gate="G$1" pin="2"/>
-<wire x1="195.58" y1="134.62" x2="195.58" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="134.62" x2="205.74" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="C15" gate="G$1" pin="2"/>
 <pinref part="C19" gate="G$1" pin="1"/>
-<wire x1="172.72" y1="149.86" x2="182.88" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="149.86" x2="190.5" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="2"/>
-<wire x1="182.88" y1="149.86" x2="185.42" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="147.32" x2="182.88" y2="149.86" width="0.1524" layer="91"/>
-<junction x="182.88" y="149.86"/>
+<wire x1="190.5" y1="149.86" x2="193.04" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="147.32" x2="190.5" y2="149.86" width="0.1524" layer="91"/>
+<junction x="190.5" y="149.86"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="J8" gate="G$1" pin="SIGNAL"/>
-<wire x1="210.82" y1="149.86" x2="218.44" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="149.86" x2="228.6" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="JP8" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -26023,14 +26028,14 @@ Avg. current: 190mA (Cat M1 Tx/Rx)</text>
 <net name="N$21" class="0">
 <segment>
 <pinref part="C19" gate="G$1" pin="2"/>
-<wire x1="193.04" y1="149.86" x2="195.58" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="149.86" x2="198.12" y2="149.86" width="0.1524" layer="91"/>
-<junction x="195.58" y="149.86"/>
+<wire x1="203.2" y1="149.86" x2="205.74" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="149.86" x2="208.28" y2="149.86" width="0.1524" layer="91"/>
+<junction x="205.74" y="149.86"/>
 <pinref part="L2" gate="G$1" pin="1"/>
-<wire x1="198.12" y1="149.86" x2="200.66" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="147.32" x2="195.58" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="152.4" x2="198.12" y2="149.86" width="0.1524" layer="91"/>
-<junction x="198.12" y="149.86"/>
+<wire x1="208.28" y1="149.86" x2="210.82" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="147.32" x2="205.74" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="152.4" x2="208.28" y2="149.86" width="0.1524" layer="91"/>
+<junction x="208.28" y="149.86"/>
 <pinref part="JP8" gate="G$1" pin="1"/>
 <pinref part="JP7" gate="G$1" pin="1"/>
 </segment>
@@ -26038,7 +26043,7 @@ Avg. current: 190mA (Cat M1 Tx/Rx)</text>
 <net name="N$22" class="0">
 <segment>
 <pinref part="E1" gate="G$1" pin="SIGNAL"/>
-<wire x1="198.12" y1="167.64" x2="198.12" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="167.64" x2="208.28" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="JP7" gate="G$1" pin="2"/>
 </segment>
 </net>
