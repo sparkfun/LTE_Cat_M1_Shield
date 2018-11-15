@@ -17,7 +17,7 @@ Repository Contents
 Documentation
 --------------
 * **[Installing an Arduino Library Guide](https://learn.sparkfun.com/tutorials/installing-an-arduino-library)** - Basic information on how to install an Arduino library.
-* **[Product Repository](https://github.com/sparkfun/LTE_Cat_M1_Shield)** - Main repository (including hardware files).
+* **[Library](https://github.com/sparkfun/SparkFun_LTE_Shield_Arduino_Library)** - Arduino library.
 * **[Hookup Guide](https://learn.sparkfun.com/tutorials/lte-cat-m1nb-iot-shield-hookup-guide)** - Basic hookup guide.
 
 License Information
