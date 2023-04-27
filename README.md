@@ -20,6 +20,11 @@ Documentation
 * **[Library](https://github.com/sparkfun/SparkFun_LTE_Shield_Arduino_Library)** - Arduino library.
 * **[Hookup Guide](https://learn.sparkfun.com/tutorials/lte-cat-m1nb-iot-shield-hookup-guide)** - Basic hookup guide.
 
+Version History
+---------------
+* v11 - Removed `GND` connection to `AREF` pin
+* [v10](https://github.com/sparkfun/LTE_Cat_M1_Shield/releases/tag/v10) - Initial Release
+
 License Information
 -------------------
 
